@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #FFFBAC;
+  font-family: 'Playfair Display', serif;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
+  color: #FFFBAC;
+}
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+  color: #CFB997;
+}
+p {
+  color: #FFFBAC;
+}
+a {
+  font-family: 'Oswald', sans-serif;
+  color: #CFB997;
+  margin: 10px 20px;
+  position: relative;
+  bottom: 15px;
+  text-decoration: none;
+}
+a:hover {
+  color: #F2CD5C;
+}
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.topcontainer {
+  background-color: #395B64;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+background-color: #567189;
+padding-bottom: 70px;
+}
+.bottom-container {
+padding: 50px 0 20px;
+background-color: #00425A;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 50px auto;
+}
+.pumpkin {
+  margin-right: 30px;
+  float: left;
+}
+.quest {
+  margin-right: 30px;
+  float: left;
+}
+.btn {
+  position: relative;
+  top: 10px;
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #f0e5a1;
+  font-size: 32px;
+  background: #375061;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 4px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #808080;
+  text-decoration: none;
+}
+.contact-msg {
+  margin: 40px auto 60px;
+}
+.copy-msg {
+  font-size: 0.75rem;
+  color: #DCD7C9;
+}
